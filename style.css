@@ -1,0 +1,267 @@
+* {
+  font-family: "Noto Sans";
+  color: #0f324c;
+}
+
+.header-logo span {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  color: #e72127;
+  width: 492px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.header-banner {
+  background-image: url(./images/header-banner-bg.png);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  height: 334px;
+}
+
+.sector-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #125a9d, #0f324c);
+  height: 74px;
+}
+
+.sector-title.black {
+  background: black;
+}
+
+.sector-title span {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.left-panel-wrapper {
+  padding: 0;
+  border-right: 2px solid #bec0c4;
+}
+
+.panel-block .image-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #bec0c4;
+}
+
+.panel-block .image-tile span {
+  margin: 16px 28px;
+  text-align: center;
+}
+
+.panel-block .image-tile .main-image {
+  width: 100%;
+  height: 209px;
+  border-bottom: 3px solid #e33832;
+  background-size: cover;
+}
+
+.panel-block .image-tile .card-image {
+  width: 164px;
+  height: 111px;
+  background-size: contain;
+  margin-top: -55px;
+}
+
+.main-image.island {
+  background-image: url(./images/tile-bg-island.png);
+}
+
+.main-image.beach {
+  background-image: url(./images/tile-bg-beach.png);
+}
+
+.card-image.island {
+  background-image: url(./images/card-bg-island.png);
+}
+
+.card-image.beach {
+  background-image: url(./images/card-bg-beach.png);
+}
+
+.panel-block .detail-info {
+  padding-top: 42px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border-bottom: 2px solid #bec0c4;
+  align-items: center;
+}
+
+.panel-block .detail-info span {
+  width: 218px;
+  text-align: center;
+}
+
+.panel-block .apply-now {
+  padding-top: 32px;
+  padding-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+}
+
+.panel-block .apply-now span {
+  color: #0077d1;
+  width: 218px;
+  text-align: center;
+}
+
+.panel-block .apply-now button {
+  color: white;
+  width: 135px;
+  height: 35px;
+  border: none;
+  border-radius: 2px;
+  background-color: #0077d1;
+  text-align: center;
+}
+
+.content-block {
+  margin-left: 42px;
+}
+
+.content-block .block-title {
+  margin-top: 16px;
+  color: #0077d0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.content-block .block-subtitle {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+}
+
+.content-block .block-detail {
+  font-size: 22.5px;
+  line-height: 23px;
+}
+.content-block .block-detail ul {
+  list-style-image: url(./images/list-icon.png);
+  margin-bottom: 0;
+}
+
+.content-block .block-detail ul li {
+  margin-bottom: 24px;
+}
+
+.content-block .block-detail ul li:last-child {
+  margin-bottom: 0;
+}
+
+.service-list {
+  margin-top: 36px;
+  display: grid;
+  row-gap: 32px;
+  column-gap: 24px;
+  grid-template-columns: 31% 31% 31%;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.service-item span {
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.pricing-title {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.main-content-wrapper {
+  padding: 0;
+}
+
+.blue {
+  color: #005cd9;
+}
+
+.pricing-list-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-list-2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-item {
+  padding-left: 34px;
+  width: 48%;
+}
+
+.pricing-item.platinum-select {
+  border-top: 3px solid #e33832;
+}
+
+.pricing-item.aadvantage-mileup {
+  border-top: 3px solid #0050a0;
+}
+
+.pricing-item.executive {
+  border-top: 3px solid #000000;
+}
+
+.pricing-item .pricing-top-banner {
+  display: flex;
+}
+
+.pricing-item .pricing-top-banner img {
+  margin-top: -18px;
+}
+
+.pricing-item .pricing-top-banner span {
+  padding-left: 16px;
+  padding-top: 8px;
+  font-size: 19.5px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #0077d0;
+}
+
+.pricing-item .pricing-content {
+  font-size: 12.5px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
